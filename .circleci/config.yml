@@ -28,7 +28,7 @@ jobs:
           command: mvn test
       - run:
           name: Build jar
-          command: mvn build
+          command: mvn package
         
       - store_artifacts:
           path: target/basilTroll-1.0-SNAPSHOT.jar
