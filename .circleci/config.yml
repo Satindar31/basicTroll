@@ -26,10 +26,11 @@ jobs:
       - run:
           name: Test
           command: mvn test
+      - run:
           name: Build jar
           command: mvn build
         
-       - store_artifacts:
+      - store_artifacts:
           path: target/basilTroll-1.0-SNAPSHOT.jar
 
 # Invoke jobs via workflows
