@@ -1,6 +1,6 @@
 name: BasicTroll
 version: '1.0'
-main: cf.satindarsden.basictroll.basiltroll.BasilTroll
+main: cf.satindarsden.basictroll.basiltroll.BasicTroll
 api-version: 1.18
 prefix: BasicTroll
 load: POSTWORLD
