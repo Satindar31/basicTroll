@@ -1,8 +1,8 @@
-name: BasicTroll
+name: BasilTroll
 version: '1.0'
-main: cf.satindarsden.basictroll.basiltroll.BasicTroll
+main: cf.satindarsden.basictroll.basiltroll.BasilTroll
 api-version: 1.18
-prefix: BasicTroll
+prefix: BasilTroll
 load: POSTWORLD
 authors: [ Satindar ]
 description: A plugin with basic trolling commands

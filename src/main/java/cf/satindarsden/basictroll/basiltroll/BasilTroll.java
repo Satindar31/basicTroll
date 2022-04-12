@@ -2,7 +2,7 @@ package cf.satindarsden.basictroll.basiltroll;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class BasicTroll extends JavaPlugin {
+public final class BasilTroll extends JavaPlugin {
 
     @Override
     public void onEnable() {
@@ -12,7 +12,7 @@ public final class BasicTroll extends JavaPlugin {
         //if it is starting, print another message
         getServer().getPluginManager().registerEvents(new DiaBreak(), this);
         getServer().getPluginManager().registerEvents(new pack(),this);
-        getLogger().info("BasicTroll has started");
+        getLogger().info("BasilTroll has started");
 
     }
 
@@ -23,6 +23,6 @@ public final class BasicTroll extends JavaPlugin {
         //If it has started, print a message
         //if it is starting, print another message
 
-        getLogger().warning("BasicTroll has stopped");
+        getLogger().warning("BasilTroll has stopped");
     }
 }
